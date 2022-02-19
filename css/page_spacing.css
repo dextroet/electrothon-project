@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+:root {
+    --main-bg-color: brown;
+    --font1:'Akaya Telivigala', cursive;
+    --font2: 'Roboto', sans-serif;
+  }
+  .font1{
+    font-family: var(--font1);
+  }
+  .font2{
+    font-family: var(--font2);
+  }
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+      max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+} 
+
+
+.btn{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    margin-top: 4px;
+    font-size: 21px;
+    border: 2px solid black;
+    border-radius: 14px;
+    cursor: pointer;
+ }
+ .btn:hover{
+ background-color: var(--main-bg-color);
+ color: white;
+ transition: all 0.3sec ease-in-out;
+ }
+ 

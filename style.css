@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Slab&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+body{
+    background-color: aliceblue;
+    background-image: url('background.png');
+    background-size: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    font-family: 'Roboto Slab', serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 90px;
+    background-color: dodgerblue;
+    align-items: center;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.brand img{
+    width: 80px;
+    padding: 0 10px;
+}
+gm{
+    font-family: 'Shizuru', cursive;
+    font-weight:900;
+    align-items: center;
+    color:indigo;
+    font-size:2.0rem;
+    
+    
+}
+.brand{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    padding:0 30px;
+    cursor: pointer;
+}
+.container{
+    min-height: auto;
+    background-color: dodgerblue;
+    color: black;
+    font-family: 'Gideon Roman', cursive;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 15px;
+    padding: 34px;
+}
+.btn{
+    display: inline;
+    background-color:darkblue;
+    color: antiquewhite;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: darkolivegreen;
+}
+.drop{
+    position: absolute;
+    display: none;
+}
+
+ul li{
+    float: left;
+}
+.drop li{
+    float: none;
+    
+}
+.drop li a:hover{
+    color: darkolivegreen;
+}
+.drop:hover{
+    display: block;
+}
