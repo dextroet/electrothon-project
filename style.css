@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
 body{
     background-color: aliceblue;
-    background-image: url('background.jpeg');
+    background-image: url('Background.png');
     background-size: 100%;
 }
 *{
@@ -24,6 +24,7 @@ nav ul{
 a{
     text-decoration: none;
     color: black;
+    transition: background 0.5s;
 }
 .brand img{
     width: 80px;
@@ -86,4 +87,21 @@ ul li{
 }
 .drop:hover{
     display: block;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.col img{
+    width: 25%;
+}
+.hi{
+    align-items: center;
+}
+a:hover{
+    transform: scale(1.1);
+    background: darkolivegreen;
 }
